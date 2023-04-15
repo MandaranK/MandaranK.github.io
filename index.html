@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="" class="logo">Portfolio</a>
+
+        <!-- <i class='bx bx-menu' id="menu-icon"></i> -->
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#hardware">Hardware</a>
+            <a href="#software">Software</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome! I'm</h3>
+            <h1>Mandaran Krishnakumar</h1>
+            <h3>And I am a <span>UWaterloo Electrical Engineer</span></h3>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/mandaran-krishnakumar-081977248"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="https://github.com/MandaranK?tab=repositories"><i class='bx bxl-github' ></i></a>
+            </div>
+            <!-- 
+            <a href="#" class="btn">Hardware Resume</a>
+            <a href="#" class="btn">Software Resume</a> 
+            -->
+        </div>
+
+        <div class="home-img">
+            <img src="images/portrait.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading"><span>About</span> Me</h2>
+            <h3>Hi! I am currently in my first year of the University of Waterloo's Electrical/Computer Engineering Program.</h3>
+            <p>I've always had a keen interest in designing and programming both hardware and software systems. I have gained these experiences through my work history, projects, and the courses I've taken.<br><br>
+                I have had a lot of experience in the field of hardware like circuit design, working with Microcontrollers, CAD, and more. I also have a lot of experience with programming both back-end and front-end projects over the years.<br><br>
+                In this website, you can view my portfolio of hardware and software projects I have done over the past few years.</p>
+            <a href="https://www.linkedin.com/in/mandaran-krishnakumar-081977248" class="btn">LinkedIn Profile</a>
+        </div>
+    </section>
+
+    <!-- hardware section design -->
+    <section class="hardware" id="hardware">
+        <h2 class="heading"><span>Hardware</span> Projects</h2>
+
+        <div class="hardware-container">
+            <div class="hardware-box">
+                <img src="images/uv.png" alt="">
+                <div class="hardware-layer">
+                    <h4>UV Radiation Detection System</h4>
+                    <p> Designed to take solar radiation as a voltage input value through the light sensor.<br>
+                        Programmed to convert it into a UV index value, to be displayed and updated on an LCD monitor, in addition to informing the user how much skin protection is needed outside.<br>
+                        The STM32 Microcontroller was programmed in C, using the STM32Cube IDE.<br>
+                        The outer structure was designed in Autodesk AutoCAD and later 3D printed.
+                        </p>
+                    <a href="https://github.com/MandaranK/UVRadiationDetectionSystem"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="hardware-box">
+                <img src="images/rover.png" alt="">
+                <div class="hardware-layer">
+                    <h4>Line-Following Automated Rover</h4>
+                    <p>Designed and programmed to travel along a path from one location to another.<br>
+                        If the rover drives out of the pathway, it is able to relocate the pathway automatically.<br>
+                        The outer structure is 3D printed, with Analog Line Sensors, DC Motors, and Arduino.<br>
+                        Line sensors and motors on the wheels are programmed for automation through the Arduino, in C using the Arduino IDE.
+                        </p>
+                    <a href="https://github.com/MandaranK/AutomatedRover"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="hardware-box">
+                <img src="images/truck.png" alt="">
+                <div class="hardware-layer">
+                    <h4>Autonomous Truck Circuit Simulation</h4>
+                    <p>Includes a built-in backing-up alarm system, which has flashing lights and sounds.<br>
+                        Circuitry consists of three Arduinos (programmed in C), DC Motors, an LED, and a Piezo.<br>
+                        This simulation was designed and programmed on Autodesk TinkerCAD.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- software section design -->
+    <section class="software" id="software">
+        <h2 class="heading"><span>Software</span> Projects</h2>
+
+        <div class="software-container">
+            <div class="software-box">
+                <i class='bx bxl-java'></i>
+                <i class='bx bxl-android' ></i>
+                <h3>Android Weather App</h3>
+                <p>This app displays the current weather, hourly temperatures, and windspeed of any city across the world with the use of global Weather API. 
+                    JSON Object Request from the Volley library was used in Android Studio to retrieve the API data. 
+                    The User Interface was designed to be aesthetic and simple to navigate.</p>
+                <a href="https://github.com/MandaranK/WeatherApp" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-html5' ></i>
+                <i class='bx bxl-css3' ></i>
+                <i class='bx bxl-javascript'></i>
+                <h3>Portfolio Website</h3>
+                <p>This website was designed to optimize the user experience and simplify navigation. Interactive elements and hovering animations were coded in 
+                    JavaScript for user convenience. An aesthetic User Interface and semantic structure was coded in HTML/CSS.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-javascript'></i>
+                <i class='bx bxl-html5' ></i>
+                <h3>Real-time Emotion Detector</h3>
+                <p>Through the webcam of the device being used, it will determine and display the current live emotion of the face, 
+                    using real-time Face Recognition, Artificial Intelligence, 
+                    and JavaScript Face API. It does so by outlining and detecting various features of the face with emotion percentages and probability scores.</p>
+                <a href="https://github.com/MandaranK/EmotionDetector" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-unity' > C#</i>
+                <h3>Classic Pong Game</h3>
+                <p>Using the Unity game engine, simple AI is implemented as the user plays against a CPU. 
+                    The game does become progressively harder for the player. Different components of the UI were programmed with the UnityEngine namespace.</p>
+                <a href="https://github.com/MandaranK/ClassicPong" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-c-plus-plus' ></i>
+                <h3>Minesweeper Game</h3>
+                <p>Different functions were implemented into the setup of this game, such as create the board with specified dimensions, hide the board values, 
+                    reveal values and neighbours on the board when clicked on, and clean the board when the game is done.</p>
+                <a href="https://github.com/MandaranK/Minesweeper" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-typescript' ></i>
+                <i class='bx bxl-react' ></i>
+                <h3>Hangman Game</h3>
+                <p>Multiple TypeScript files were created to draw up the hangman, randomly generate the word, to determine a right or wrong guessed letter, 
+                    and determining whether the user has won or lost the game. The React library was used to build a better user interface. </p>
+                <a href="https://github.com/MandaranK/Hangman" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-python' ></i>
+                <h3>AI Voice Assistant</h3>
+                <p>This AI has the ability to detect when it is being called upon, and can answer many types of questions using the web. It can also automatically play 
+                    Youtube videos, tell a funny joke, determine today's current date and time, etc. Multiple python libraries were implemented.</p>
+                <a href="https://github.com/MandaranK/VoiceAI" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-java'></i>
+                <i class='bx bxl-android' ></i>
+                <h3>To-do List App</h3>
+                <p>Programmed in Android Studio, the UI component is implemented (in a layout resource file) for a user-friendly experience. 
+                    AppCompatActivity was used so older devices can access these app features. Methods were included to add or remove items from the list array.</p>
+                <a href="https://github.com/MandaranK/ToDoListApp" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-javascript'></i>
+                <i class='bx bxl-html5' ></i>
+                <i class='bx bxl-css3' ></i>
+                <h3>Interactive Online Piano</h3>
+                <p>A one-octave piano UI was designed, having certain letters on the keyboard assigned to certian keys on the piano. Short audio files of the 
+                    musical notes are played as keys are pressed. With the addition of JavaScript, a smoother and more realistic experience is maintained.</p>
+                <a href="https://github.com/MandaranK/VirtualPiano" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-javascript'></i>
+                <i class='bx bxl-html5' ></i>
+                <i class='bx bxl-css3' ></i>
+                <h3>Music Player</h3>
+                <p>The layout was constructed to be easy and simple to use, from HTML and CSS. Programmed with JavaScript, this music player is able to display a progress bar, 
+                    which can be controlled by the user, as well as the ability to pause and replay. Webkit was used to avoid browser compatibility issues.</p>
+                <a href="https://github.com/MandaranK/MusicPlayer" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-java' ></i>
+                <h3>Classic Snake Game</h3>
+                <p>This game has three classes that use JFrame, JPanel, and the ActionListener interface. Methods were implemented to generate a new location for the apple, 
+                    check for a collision, determine if the game is over, etc. To move the snake, a loop was used to iterate through the body parts of the snake.</p>
+                <a href="https://github.com/MandaranK/Snake" class="btn">Learn More</a>
+            </div>
+
+            <div class="software-box">
+                <i class='bx bxl-python' ></i>
+                <h3>Hockey Goalie Game</h3>
+                <p>This game was programmed using the Pygame library. The objective of this game is to save as many pucks from going into the net. 
+                    As the user controls the goalie, pucks will randomly spawn every 5 seconds.</p>
+                <a href="https://github.com/MandaranK/GoaliePygame" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Mandaran Krishnakumar | Project Portfolio</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
